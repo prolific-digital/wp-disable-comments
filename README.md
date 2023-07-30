@@ -1,49 +1,58 @@
 # WP Disable Comments
 
-## Description
+The WP Disable Comments plugin for WordPress is designed to disable all WordPress comments and related functionality, providing a streamlined experience for your website users.
 
-WP Disable Comments is a powerful WordPress plugin designed by Prolific Digital to streamline your website's experience by completely disabling all WordPress comments and related functionalities. Whether you seek a comment-free environment or wish to focus on alternative forms of user engagement, this plugin has you covered.
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [Contributing](#contributing)
 
 ## Features
 
-- Disables comments and trackbacks on all post types, including custom post types.
-- Closes comments on all existing posts to prevent further commenting.
-- Removes comment sections and options from the backend admin dashboard.
+- Disables comments on the front end for all post types.
+- Removes comment-related sections from the WordPress admin dashboard.
 - Hides the "Comments" link from the admin toolbar.
-- Disables comment feeds to prevent comment visibility through RSS.
-- Removes comment-related widgets from the WordPress widget areas.
-- Disables loading of comment-related JavaScript and CSS assets.
-- Prevents comment notifications from being sent to site administrators.
-- Removes comment forms from theme templates to ensure a clean slate.
-- Disables comment-related REST API endpoints for comprehensive control.
+- Disables comment feeds for a more streamlined experience.
+- Eliminates comment-related widgets for a cleaner user interface.
+- Removes comment-related JavaScript and CSS for improved performance.
+- Disables comment notifications for a quieter comment management experience.
+- Removes comments from dashboard widgets, providing a distraction-free environment.
+- Disables comment-related REST API endpoints for enhanced security.
+- Removes comment form from theme templates for a comment-free presentation.
 
 ## Installation
 
-1. Download the "WP Disable Comments" plugin ZIP file from the [GitHub repository](https://github.com/prolific-digital/wp-disable-comments).
-2. In your WordPress dashboard, navigate to "Plugins" > "Add New."
-3. Click on the "Upload Plugin" button, and choose the downloaded ZIP file.
-4. Click "Install Now" and then "Activate" to enable the plugin.
+1. Download the latest release of WP Disable Comments from the [GitHub repository](https://github.com/prolific-digital/wp-disable-comments).
+2. Upload the plugin folder to your WordPress plugin directory (usually `wp-content/plugins/`).
+3. Activate the plugin through the 'Plugins' menu in your WordPress admin.
+
+> Please note that this plugin requires PHP 7.0+ and WordPress 5.0+.
 
 ## Usage
 
-Once activated, the "WP Disable Comments" plugin will automatically disable all WordPress comments and associated features.
+Once the plugin is activated, all WordPress comments and related functionality will be disabled according to the specified options. If you wish to re-enable comments or make any adjustments, navigate to the plugin settings page located under "Settings" > "Disable Comments."
+
+## Support
+
+For support, feedback, or feature requests, please [submit an issue](https://github.com/prolific-digital/wp-disable-comments/issues) on GitHub.
+
+## Contributing
+
+We welcome contributions to improve the WP Disable Comments plugin. To contribute:
+
+1. Fork the project.
+2. Make your feature addition or bug fix.
+3. Send us a pull request with a brief description of your changes.
+
+> Before sending a pull request for a feature addition, please discuss it with us first. We want to ensure that changes align with the project's direction and goals.
 
 ## License
 
-This plugin is licensed under the GNU General Public License v3.0 (GPLv3). Feel free to use, modify, and distribute it in accordance with the license terms.
-
-## Contributions and Support
-
-If you encounter any issues, have ideas for improvements, or wish to contribute to the development of this plugin, we welcome your input. Please [open an issue](https://github.com/prolific-digital/wp-disable-comments/issues) on GitHub or [contact our team](support@prolificdigital.com) at Prolific Digital.
-
-## About Prolific Digital
-
-Prolific Digital is a creative digital agency based in Louisville, KY. We are passionate about delivering exceptional customer experiences and challenging the norms in the digital industry. This plugin is one of our contributions to making the web a better place.
-
-## Changelog
+This project is licensed under the GPL-3.0 License.
 
 ---
 
-Thank you for choosing the "WP Disable Comments" plugin by Prolific Digital. We hope this plugin enhances your WordPress experience and empowers you to create a meaningful and engaging platform for your users.
-
-Happy WordPressing!
+_Proudly crafted by Prolific Digital_
