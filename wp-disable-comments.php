@@ -18,6 +18,17 @@ if (!defined('WPINC')) {
   die;
 }
 
+define( 'WP_DISABLE_COMMENTS_PLUGIN_FILE', __FILE__ );
+define( 'WP_DISABLE_COMMENTS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+
+// Composer dependencies (plugin-update-checker). Present in release zips;
+// in a git checkout run `composer install` first.
+if ( is_readable( WP_DISABLE_COMMENTS_PLUGIN_DIR . 'vendor/autoload.php' ) ) {
+	require_once WP_DISABLE_COMMENTS_PLUGIN_DIR . 'vendor/autoload.php';
+}
+
+require_once WP_DISABLE_COMMENTS_PLUGIN_DIR . 'includes/update-checker.php';
+
 class WP_Disable_Comments_Plugin {
   public function __construct() {
     // Disable comments on the front end
